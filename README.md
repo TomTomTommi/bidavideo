@@ -105,11 +105,12 @@ The folder stucture of the datasets should look like:
 ```
 
 ## Evaluation
-Download the checkpoints. Copy the checkpoints to `./checkpoints/`.
+Download the checkpoints on [google drive](https://drive.google.com/drive/folders/1eLcJXLf8qEF70WLKtNcGDHFwpgNTywN5?usp=drive_link). 
+Copy the checkpoints to `./checkpoints/`.
 
 To evaluate BiDAStabilizer:
 ```
-sh evaluate_stabilizer.sh
+sh evaluate_bidastabilizer.sh
 ```
 
 To evaluate BiDAStereo:
@@ -129,13 +130,13 @@ You can decrease `image_size` and / or `sample_len` if you don't have enough GPU
 ## Citation 
 If you use BiDAStabilizer or BiDAStereo in your research, please use the following BibTeX entry.
 ```
-@article{jing2023match,
-  title={Match-Stereo-Videos via Bidirectional Alignment},
+@article{jing2024match,
+  title={Match Stereo Videos via Bidirectional Alignment},
   author={Junpeng Jing and Ye Mao and Anlan Qiu and Krystian Mikolajczyk},
   year={2024}
 }
 
-@article{jing2023match,
+@article{jing2024match-stereo-videos,
   title={Match-Stereo-Videos: Bidirectional Alignment for Consistent Dynamic Stereo Matching},
   author={Junpeng Jing and Ye Mao and Krystian Mikolajczyk},
   year={2024}
