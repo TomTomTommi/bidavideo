@@ -1,1 +1,143 @@
-# bidastabilizer
+# Match-Stereo-Videos via Bidirectional Alignment
+
+**[Imperial College London](https://www.imperial.ac.uk/)**
+
+[Junpeng Jing](https://nikitakaraevv.github.io/), 
+[Ye Mao](https://yebulabula.github.io/), 
+[Anlan Qiu](), 
+[Krystian Mikolajczyk](https://www.imperial.ac.uk/people/k.mikolajczyk)
+
+[[`Paper`](https://arxiv.com)] [[`Project`](https://tomtomtommi.github.io/BiDAStabilizer/)]
+
+![Reading](./assets/Reading.gif)
+
+## What's new?
+An update of the previous project [`BiDAStereo`](https://tomtomtommi.github.io/BiDAStereo/), for stereo videos:
+
+&#9745; Support BiDAStabilizer for image-based network, RAFTStereo and IGEVStereo, for video stereo matching.
+
+&#9745; Support added video datasets: KITTI Depth, Infinigen SV, Southkensington SV.
+
+&#9745; Support new metrics and losses.
+
+&#9745; Support demo code for arbitrary stereo video as input.
+
+
+## Installation
+
+Installation with PyTorch3D, PyTorch 1.12.1 & cuda 11.3
+
+### Setup the root for all source files:
+```
+git clone https://github.com/tomtomtommi/bidavideo
+cd bidavideo
+export PYTHONPATH=`(cd ../ && pwd)`:`pwd`:$PYTHONPATH
+```
+### Create a conda env:
+```
+conda create -n bidavideo python=3.8
+conda activate bidavideo
+```
+### Install requirements
+```
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
+pip install -r requirements.txt
+```
+
+## Demo
+
+Demo code can be run using the following script:
+```
+sh demo.sh
+```
+To test on your own data, modify `--path ./demo_video/`. More arguments can be found and modified in ` demo.py`
+
+## Dataset
+
+Download the following datasets and put in `./data/datasets`:
+ - [SceneFlow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
+ - [Sintel](http://sintel.is.tue.mpg.de/stereo)
+ - [Dynamic_Replica](https://dynamic-stereo.github.io/)
+ - [KITTI Depth](https://www.cvlibs.net/datasets/kitti/eval_depth_all.php)
+ - [InfinigenSV](https://tomtomtommi.github.io/BiDAStabilizer/)
+ - [SouthKensingtonSV](https://tomtomtommi.github.io/BiDAStabilizer/)
+
+The folder stucture of the datasets should look like:
+```none
+/data/dataset/
+            ├── Driving
+            ├── FlyingThings3D
+            ├── Monkaa
+            ├── sintel_stereo
+                ├── training
+                    ├── camdata_left
+                    ├── disparities
+                    ├── ...
+                    ├── clean_left
+                    ├── clean_right
+            ├── dynamic_replica_data
+                ├── train
+                ├── test
+                ├── real
+            ├── InfinigenStereo
+                ├── train
+                ├── test
+                ├── val
+            ├── SouthKensington
+                ├── Indoor
+                    ├── video001
+                    ├── ...
+                ├── Outdoor
+                    ├── video001
+                    ├── ...
+            ├── kitti_depth
+                ├── gt_depth
+                    ├── 2011_09_26_drive_0001_sync
+                    ├── 2011_09_26_drive_0002_sync
+                    ├── ...
+                    ├── 2011_10_03_drive_0047_sync
+                ├── input
+                │   ├── 2011_09_26
+                │   ├── 2011_09_28
+                │   ├── ...
+                │   ├── 2011_10_03
+```
+
+## Evaluation
+Download the checkpoints. Copy the checkpoints to `./checkpoints/`.
+
+To evaluate BiDAStabilizer:
+```
+sh evaluate_stabilizer.sh
+```
+
+To evaluate BiDAStereo:
+```
+sh evaluate_bidastereo.sh
+```
+
+The results are evaluated on an A6000 40GB GPU.
+
+## Training
+```
+sh train_bidastabilizer.sh
+sh train_bidastereo.sh
+```
+You can decrease `image_size` and / or `sample_len` if you don't have enough GPU memory.
+
+## Citation 
+If you use BiDAStabilizer or BiDAStereo in your research, please use the following BibTeX entry.
+```
+@article{jing2023match,
+  title={Match-Stereo-Videos via Bidirectional Alignment},
+  author={Junpeng Jing and Ye Mao and Anlan Qiu and Krystian Mikolajczyk},
+  year={2024}
+}
+
+@article{jing2023match,
+  title={Match-Stereo-Videos: Bidirectional Alignment for Consistent Dynamic Stereo Matching},
+  author={Junpeng Jing and Ye Mao and Krystian Mikolajczyk},
+  year={2024}
+}
+```
