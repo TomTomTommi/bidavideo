@@ -7,9 +7,9 @@
 [Anlan Qiu](), 
 [Krystian Mikolajczyk](https://www.imperial.ac.uk/people/k.mikolajczyk)
 
-[[`Paper`](https://arxiv.com)] [[`Project`](https://tomtomtommi.github.io/BiDAStabilizer/)]
+[[`Paper`](https://arxiv.com)] [[`Project`](https://tomtomtommi.github.io/BiDAVideo/)]
 
-![Reading](./assets/Reading.gif)
+![Reading](./assets/fig1.png)
 
 ## What's new?
 An update of the previous project [`BiDAStereo`](https://tomtomtommi.github.io/BiDAStereo/), for stereo videos:
@@ -60,8 +60,8 @@ Download the following datasets and put in `./data/datasets`:
  - [Sintel](http://sintel.is.tue.mpg.de/stereo)
  - [Dynamic_Replica](https://dynamic-stereo.github.io/)
  - [KITTI Depth](https://www.cvlibs.net/datasets/kitti/eval_depth_all.php)
- - [InfinigenSV](https://tomtomtommi.github.io/BiDAStabilizer/)
- - [SouthKensingtonSV](https://tomtomtommi.github.io/BiDAStabilizer/)
+ - [InfinigenSV](https://tomtomtommi.github.io/BiDAVideo/)
+ - [SouthKensingtonSV](https://tomtomtommi.github.io/BiDAVideo/)
 
 The folder stucture of the datasets should look like:
 ```none
