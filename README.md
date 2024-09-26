@@ -51,6 +51,11 @@ Demo code can be run using the following script:
 ```
 sh demo.sh
 ```
+In this script, you can specify which model (RAFTStereo, IGEVStereo with/without BiDAStabilizer; BiDAStereo) you want to use for demo.
+
+Before running, download the checkpoints on [google drive](https://drive.google.com/drive/folders/1eLcJXLf8qEF70WLKtNcGDHFwpgNTywN5?usp=drive_link). 
+Copy the checkpoints to `./checkpoints/`
+
 To test on your own data, modify `--path ./demo_video/`. More arguments can be found and modified in ` demo.py`
 
 ## Dataset
@@ -60,8 +65,8 @@ Download the following datasets and put in `./data/datasets`:
  - [Sintel](http://sintel.is.tue.mpg.de/stereo)
  - [Dynamic_Replica](https://dynamic-stereo.github.io/)
  - [KITTI Depth](https://www.cvlibs.net/datasets/kitti/eval_depth_all.php)
- - [InfinigenSV](https://tomtomtommi.github.io/BiDAVideo/)
- - [SouthKensingtonSV](https://tomtomtommi.github.io/BiDAVideo/)
+ - [Infinigen SV](https://tomtomtommi.github.io/BiDAVideo/)
+ - [SouthKensington SV](https://tomtomtommi.github.io/BiDAVideo/)
 
 The folder stucture of the datasets should look like:
 ```none
@@ -121,8 +126,14 @@ sh evaluate_bidastereo.sh
 The results are evaluated on an A6000 40GB GPU.
 
 ## Training
+To train BiDAStabilizer:
 ```
 sh train_bidastabilizer.sh
+```
+`--restore_ckpt` is the fixed weights of image-based models. `--ckpt_path` is the logging path.
+
+To train BiDAStereo:
+```
 sh train_bidastereo.sh
 ```
 You can decrease `image_size` and / or `sample_len` if you don't have enough GPU memory.
