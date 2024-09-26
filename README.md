@@ -2,7 +2,7 @@
 
 **[Imperial College London](https://www.imperial.ac.uk/)**
 
-[Junpeng Jing](https://nikitakaraevv.github.io/), 
+[Junpeng Jing](https://tomtomtommi.github.io), 
 [Ye Mao](https://yebulabula.github.io/), 
 [Anlan Qiu](), 
 [Krystian Mikolajczyk](https://www.imperial.ac.uk/people/k.mikolajczyk)
