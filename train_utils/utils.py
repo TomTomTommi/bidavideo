@@ -12,7 +12,7 @@ import json
 import flow_vis
 import matplotlib.pyplot as plt
 
-import bidavideo.datasets.datasets as datasets
+import bidavideo.datasets.video_datasets as datasets
 from bidavideo.evaluation.utils.utils import aggregate_and_print_results
 
 

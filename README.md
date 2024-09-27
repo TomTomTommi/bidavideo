@@ -70,7 +70,7 @@ Download the following datasets and put in `./data/datasets`:
 
 The folder stucture of the datasets should look like:
 ```none
-/data/dataset/
+/data/datasets/
             ├── Driving
             ├── FlyingThings3D
             ├── Monkaa
