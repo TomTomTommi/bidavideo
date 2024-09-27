@@ -21,7 +21,7 @@ class BiDAStereoModel(Configurable, torch.nn.Module):
         self.mixed_precision = False
 
         if self.type == 'bidastereo':
-            from bidastereo.models.core.bidastereo import BiDAStereo
+            from bidavideo.models.core.bidastereo import BiDAStereo
             self.iter = 20
             model = BiDAStereo(
                 mixed_precision=self.mixed_precision,

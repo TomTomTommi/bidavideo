@@ -24,10 +24,10 @@ class RAFTModel(Configurable, torch.nn.Module):
         thirdparty_raft_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../third_party/RAFT"))
         sys.path.append(thirdparty_raft_path)
         raft = importlib.import_module(
-            "bidastereo.third_party.RAFT.core.raft"
+            "bidavideo.third_party.RAFT.core.raft"
         )
         self.raft_utils = importlib.import_module(
-            "bidastereo.third_party.RAFT.core.utils.utils"
+            "bidavideo.third_party.RAFT.core.utils.utils"
         )
 
         self.model_weights: str = "./third_party/RAFT/models/raft-things.pth"

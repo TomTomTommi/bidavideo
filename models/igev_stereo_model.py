@@ -30,10 +30,10 @@ class IGEVStereoModel(Configurable, torch.nn.Module):
         thirdparty_igev_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../third_party/IGEV-Stereo"))
         sys.path.append(thirdparty_igev_path)
         igev_stereo = importlib.import_module(
-            "bidastereo.third_party.IGEV-Stereo.core.igev_stereo"
+            "bidavideo.third_party.IGEV-Stereo.core.igev_stereo"
         )
         self.igev_stereo_utils = importlib.import_module(
-            "bidastereo.third_party.IGEV-Stereo.core.utils.utils"
+            "bidavideo.third_party.IGEV-Stereo.core.utils.utils"
         )
 
         model_args = SimpleNamespace(

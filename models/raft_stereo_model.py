@@ -31,10 +31,10 @@ class RAFTStereoModel(Configurable, torch.nn.Module):
         thirdparty_raftstereo_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../third_party/RAFT-Stereo"))
         sys.path.append(thirdparty_raftstereo_path)
         raft_stereo = importlib.import_module(
-            "bidastereo.third_party.RAFT-Stereo.core.raft_stereo"
+            "bidavideo.third_party.RAFT-Stereo.core.raft_stereo"
         )
         self.raft_stereo_utils = importlib.import_module(
-            "bidastereo.third_party.RAFT-Stereo.core.utils.utils"
+            "bidavideo.third_party.RAFT-Stereo.core.utils.utils"
         )
 
         model_args = SimpleNamespace(

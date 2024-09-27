@@ -24,10 +24,10 @@ class SEARAFTModel(Configurable, torch.nn.Module):
         thirdparty_searaft_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../third_party/SEA-RAFT"))
         sys.path.append(thirdparty_searaft_path)
         sea_raft = importlib.import_module(
-            "bidastereo.third_party.SEA-RAFT.core.raft"
+            "bidavideo.third_party.SEA-RAFT.core.raft"
         )
         self.raft_utils = importlib.import_module(
-            "bidastereo.third_party.SEA-RAFT.core.utils.utils"
+            "bidavideo.third_party.SEA-RAFT.core.utils.utils"
         )
         super().__init__()
         self.model_weights: str = "./third_party/SEA-RAFT/models/Tartan-C-T-TSKH-spring540x960-S.pth"
