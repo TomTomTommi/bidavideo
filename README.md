@@ -7,7 +7,7 @@
 [Anlan Qiu](), 
 [Krystian Mikolajczyk](https://www.imperial.ac.uk/people/k.mikolajczyk)
 
-[[`Paper`](https://arxiv.com)] [[`Project`](https://tomtomtommi.github.io/BiDAVideo/)]
+[[`Paper`](https://arxiv.org/abs/2409.20283)] [[`Project`](https://tomtomtommi.github.io/BiDAVideo/)]
 
 ![Reading](./assets/fig1.png)
 
