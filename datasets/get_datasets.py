@@ -277,14 +277,14 @@ parser.add_argument("--InfinigenStereo_videos", action="store_true", help="Save 
 parser.add_argument("--InfinigenStereo_all", action="store_true", help="Download the entire InfinigenStereo dataset")
 
 
-parser.add_argument("--InfinigenStereo_speify_vid_ids", action="store_true", help="Only download specific sequences")
+parser.add_argument("--InfinigenStereo_specify_vid_ids", action="store_true", help="Only download specific sequences")
 parser.add_argument("--InfinigenStereo_vid_ids", nargs="+", type=int, help="A list of ids")
 
 # Arguments for dataset3
 
 parser.add_argument("--InfinigenSV_videos", action="store_true", help="Save InfinigenSV videos")
 
-parser.add_argument("--InfinigenSV_speify_vid_ids", action="store_true", help="Only download specific sequences")
+parser.add_argument("--InfinigenSV_specify_vid_ids", action="store_true", help="Only download specific sequences")
 parser.add_argument("--InfinigenSV_vid_ids", nargs="+", type=int, help="A list of ids")
 parser.add_argument("--InfinigenSV_all", action="store_true", help="Download the entire InfinigenSV dataset")
 
