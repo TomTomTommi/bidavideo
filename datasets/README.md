@@ -11,8 +11,8 @@ The above code example downloads everything from all three datasets.
 
 Below is a description of all available flags:
 
-* --download_path [required]. It specifies where on your local machine the datasets directory will be downloaded to.
-* --datasets [optional]. It allows you to specify which of the three datasets you would like to download. You can download just one of them, two out of the three or all of them.
+* `--download_path` [required]. It specifies where on your local machine the datasets directory will be downloaded to.
+* `--datasets` [optional]. It allows you to specify which of the three datasets you would like to download. You can download just one of them, two out of the three or all of them.
 
 Note: For the following options, SouthKensigton must first be specified in --datasets.
 * --SK_images [optional]. A flag that specifies that the images in the South Kensington dataset should be downloaded.
