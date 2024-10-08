@@ -240,13 +240,19 @@ def download_InfinigenSV(output_directory, videos_flag, specify_vids_flag, ids):
                 print(f"'{dir_name}' directory download failed")
 
         if videos_flag:
-            print('VIDEO')
-            command = ['wget', '-P', scene_dir, 'matchlab-web.dept.ic.ac.uk/junpeng/SouthKensington/Outdoor/'+folder_name+'video.mp4']
+            command = ['wget', '-P', scene_dir, 'matchlab-web.dept.ic.ac.uk/junpeng_2/mp4s_infinigen/('+folder_name+')_depth.mp4']
             result = subprocess.run(command, capture_output=True, text=True)
             if result.returncode != 0:
-                print("Error occurred when downloading video: ", result.stderr)
+                print("Error occurred when downloading depth video: ", result.stderr)
             else:
-                print("Video downloaded")    
+                print("Depth video downloaded")
+            
+            command = ['wget', '-P', scene_dir, 'matchlab-web.dept.ic.ac.uk/junpeng_2/mp4s_infinigen/('+folder_name+')_image.mp4']
+            result = subprocess.run(command, capture_output=True, text=True)
+            if result.returncode != 0:
+                print("Error occurred when downloading image video: ", result.stderr)
+            else:
+                print("Image video downloaded")  
 
 
 # Step 1: Create the main parser
