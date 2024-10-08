@@ -1,4 +1,4 @@
-# How to download our datasets
+# How to download the datasets
 
 This document provides an explanation of how to use get_datasets.py to download the three datasets provided in this project: the South Kensington Stereo Vision dataset, Infinigen Stereo and InfinigenSV.
 
