@@ -16,7 +16,7 @@ An update of the previous project [`BiDAStereo`](https://tomtomtommi.github.io/B
 
 &#9745; Support BiDAStabilizer for image-based network, RAFTStereo and IGEVStereo, for video stereo matching.
 
-&#9745; Support added [video datasets][https://github.com/TomTomTommi/bidavideo/tree/main/datasets]: KITTI Depth, Infinigen SV, Southkensington SV.
+&#9745; Support added [video datasets](https://github.com/TomTomTommi/bidavideo/tree/main/datasets): KITTI Depth, Infinigen SV, Southkensington SV.
 
 &#9745; Support new metrics and losses.
 
