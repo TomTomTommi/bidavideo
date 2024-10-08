@@ -3,7 +3,7 @@
 This document provides an explanation of how to use get_datasets.py to download the three datasets provided in this project: the South Kensington Stereo Vision dataset, Infinigen Stereo and InfinigenSV.
 
 ```
-python3 get_data_all.py --download_path /local/download/path --datasets SouthKensington InfinigenStereo InfinigenSV --SK_all --InfinigenStereo_all --InfinigenSV_all
+python3 get_datasets.py --download_path /local/download/path --datasets SouthKensington InfinigenStereo InfinigenSV --SK_all --InfinigenStereo_all --InfinigenSV_all
 ```
 
 The above code example downloads everything from all three datasets.
