@@ -1,6 +1,6 @@
 # How to download the datasets
 
-Complete the [form](https://docs.google.com/forms/d/e/1FAIpQLScBAqAtfXKtp9lxg1neGv0YyPV4EYNKP9UHQ5TRORirDMtwXw/viewform) to get the Python script for downloading the following datasets: South Kensington Stereo Vision dataset, Infinigen Stereo
+Complete the [form](https://docs.google.com/forms/d/e/1FAIpQLScBAqAtfXKtp9lxg1neGv0YyPV4EYNKP9UHQ5TRORirDMtwXw/viewform) to get the Python script for downloading the following datasets: South Kensington Stereo Vision dataset, Infinigen Stereo and InfinigenSV.
   
 
 ```
