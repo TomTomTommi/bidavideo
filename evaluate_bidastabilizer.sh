@@ -56,7 +56,7 @@ python ./evaluation/evaluate.py --config-name eval_infinigensv \
 MODEL.model_name=RAFTStereoModel \
 MODEL.RAFTStereoModel.kernel_size=40 \
 MODEL.RAFTStereoModel.model_weights=./checkpoints/raftstereo_sf_infinigen/raftstereo_sf_isv.pth \
-stabilizer_ckpt=./checkpoints/raftstereo_sf_infinigen/raftstereo_stabilizer_sf_isv.pth
+stabilizer_ckpt=./checkpoints/raftstereo_stabilizer_sf_infinigen/raftstereo_stabilizer_sf_isv.pth
 exp_dir=./outputs/raftstereo_stabilizersf_isv_infinigen
 
 ######################################## RAFTStereo Robust ######################################
