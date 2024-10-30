@@ -123,7 +123,7 @@ To evaluate BiDAStereo:
 sh evaluate_bidastereo.sh
 ```
 
-The results are evaluated on an A6000 40GB GPU.
+The results are evaluated on an A6000 48GB GPU.
 
 ## Training
 To train BiDAStabilizer:
