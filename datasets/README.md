@@ -39,7 +39,7 @@ Note: For the following options, InfinigenSV must first be specified in --datase
 * `--InfinigenSV_all` [optional]. A flag that specifies that everything in the InfinigenSV dataset should be downloaded. Makes the previous InfinigenSV flags irrelevant.
 
 ## License 
-SouthKensington SV dataset is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). Under this license, if you want to modify SK-SV or generate new data from SK-SV dataset (e.g., super-resolution, denoising, defocus), the releasing of your new data should be licensed under the same CC BY-NC-SA 4.0. 
+SouthKensington SV dataset is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)). Under this license, if you want to modify SK-SV or generate new data from SK-SV dataset (e.g., super-resolution, denoising, defocus), the releasing of your new data should be licensed under the same CC BY-NC-SA 4.0. 
 
 ## Citation 
 If you use these datasets in your research, please use the following BibTeX entry.
