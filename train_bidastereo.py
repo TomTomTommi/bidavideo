@@ -1,6 +1,3 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-# All rights reserved.
-
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
 
@@ -19,16 +16,16 @@ import json
 from pytorch_lightning.lite import LightningLite
 from torch.cuda.amp import GradScaler
 
-from bidastabilizer.train_utils.utils import (
+from bidavideo.train_utils.utils import (
     run_test_eval,
     save_ims_to_tb,
     count_parameters,
 )
-from bidastabilizer.train_utils.logger import Logger
+from bidavideo.train_utils.logger import Logger
 
-from bidastabilizer.evaluation.core.evaluator import Evaluator
-from bidastabilizer.train_utils.losses import sequence_loss
-import bidastabilizer.datasets.video_datasets as datasets
+from bidavideo.evaluation.core.evaluator import Evaluator
+from bidavideo.train_utils.losses import sequence_loss
+import bidavideo.datasets.video_datasets as datasets
 
 
 def fetch_optimizer(args, model):
