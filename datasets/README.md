@@ -1,5 +1,9 @@
 # How to download the datasets
 
+## Update
+Our dataset is now avaliable on huggingface, use the [link](https://huggingface.co/datasets/MatchLab/SouthKensington/tree/main) to download it!
+
+
 Complete the [form](https://docs.google.com/forms/d/e/1FAIpQLScBAqAtfXKtp9lxg1neGv0YyPV4EYNKP9UHQ5TRORirDMtwXw/viewform) to get the Python script for downloading the following datasets: South Kensington Stereo Vision dataset, Infinigen Stereo and InfinigenSV.
   
 
