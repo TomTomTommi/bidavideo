@@ -3,8 +3,8 @@
 ## Update
 Our dataset is now avaliable on huggingface, use the [link](https://huggingface.co/datasets/MatchLab/SouthKensington/tree/main) to download it!
 
-~~
-Complete the [form](https://docs.google.com/forms/d/e/1FAIpQLScBAqAtfXKtp9lxg1neGv0YyPV4EYNKP9UHQ5TRORirDMtwXw/viewform) to get the Python script for downloading the following datasets: South Kensington Stereo Vision dataset, Infinigen Stereo and InfinigenSV.
+## Old version
+~~Complete the [form](https://docs.google.com/forms/d/e/1FAIpQLScBAqAtfXKtp9lxg1neGv0YyPV4EYNKP9UHQ5TRORirDMtwXw/viewform) to get the Python script for downloading the following datasets: South Kensington Stereo Vision dataset, Infinigen Stereo and InfinigenSV.~~ 
   
 
 ```
@@ -41,7 +41,7 @@ Note: For the following options, InfinigenSV must first be specified in --datase
 * `--InfinigenSV_specify_vid_ids` [optional]. A flag that specifies that the user wants to select the sequences to downloaded manually, via id.
 * `--InfinigenSV_vid_ids` [optional]. A list of ids to be downloaded.
 * `--InfinigenSV_all` [optional]. A flag that specifies that everything in the InfinigenSV dataset should be downloaded. Makes the previous InfinigenSV flags irrelevant.
-~~ 
+
 ## License 
 SouthKensington SV dataset is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)). Under this license, if you want to modify SK-SV or generate new data from SK-SV dataset (e.g., super-resolution, denoising, defocus), the releasing of your new data should be licensed under the same CC BY-NC-SA 4.0. 
 
