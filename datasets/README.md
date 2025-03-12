@@ -1,7 +1,7 @@
 # How to download the datasets
 
 ## Update
-Our dataset is now avaliable on huggingface, use this [link](https://huggingface.co/datasets/MatchLab/SouthKensington/tree/main) to download SouthKensington and this [link]([https://huggingface.co/datasets/MatchLab/SouthKensington/tree/main](https://huggingface.co/datasets/MatchLab/Infinigen/tree/main)) to download InfinigenSV!
+Our dataset is now avaliable on huggingface, use this [link](https://huggingface.co/datasets/MatchLab/SouthKensington/tree/main) to download SouthKensington and this [link](https://huggingface.co/datasets/MatchLab/Infinigen/tree/main) to download InfinigenSV!
 
 ## Old version
 ~~Complete the [form](https://docs.google.com/forms/d/e/1FAIpQLScBAqAtfXKtp9lxg1neGv0YyPV4EYNKP9UHQ5TRORirDMtwXw/viewform) to get the Python script for downloading the following datasets: South Kensington Stereo Vision dataset, Infinigen Stereo and InfinigenSV.~~ 
@@ -16,7 +16,7 @@ python3 get_datasets.py --download_path /local/download/path --datasets SouthKen
 * `--download_path` [required]. It specifies where on your local machine the datasets directory will be downloaded to.
 * `--datasets` [optional]. It allows you to specify which of the three datasets you would like to download. You can download just one of them, two out of the three or all of them.
 
-Note: For the following options, SouthKensigton must first be specified in --datasets.
+~~Note: For the following options, SouthKensigton must first be specified in --datasets.~~
 * `--SK_images` [optional]. A flag that specifies that the images in the South Kensington dataset should be downloaded.
 * `--SK_videos` [optional]. A flag that specifies that the videos in the South Kensington dataset should be downloaded.
 * `--SK_tracking_data` [optional]. A flag that specifies that the tracking data files in the South Kensington dataset should be downloaded (Tracking data is only provided in the indoor videos).
