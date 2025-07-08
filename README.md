@@ -24,8 +24,8 @@ An update of the previous project [`BiDAStereo`](https://tomtomtommi.github.io/B
 
 ## Proposed SouthKensington and InfinigenSV datasets
 
-Please see [ReadME]([https://github.com/TomTomTommi/bidavideo/tree/main/datasets](https://github.com/TomTomTommi/bidavideo/blob/main/datasets/README.md
-)).
+Please see [ReadME]([https://github.com/TomTomTommi/bidavideo/tree/main/datasets](https://github.com/TomTomTommi/bidavideo/blob/main/datasets/README.md).
+
 
 ## Installation
 
