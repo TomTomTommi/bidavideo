@@ -1,4 +1,4 @@
-# How to download the datasets
+# How to download the SouthKensington and InfinigenSV datasets
 
 ## Update
 Our dataset is now avaliable on huggingface, use this [link](https://huggingface.co/datasets/MatchLab/SouthKensington/tree/main) to download SouthKensington and this [link](https://huggingface.co/datasets/MatchLab/Infinigen/tree/main) to download InfinigenSV!
