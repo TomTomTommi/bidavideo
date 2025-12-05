@@ -151,14 +151,18 @@ SouthKensington SV dataset is licensed under Creative Commons Attribution-NonCom
 If you use BiDAStabilizer or BiDAStereo in your research, please use the following BibTeX entry.
 ```
 @article{jing2024match,
-  title={Match Stereo Videos via Bidirectional Alignment},
-  author={Junpeng Jing and Ye Mao and Anlan Qiu and Krystian Mikolajczyk},
+  title={Match stereo videos via bidirectional alignment},
+  author={Jing, Junpeng and Mao, Ye and Qiu, Anlan and Mikolajczyk, Krystian},
+  journal={arXiv preprint arXiv:2409.20283},
   year={2024}
 }
 
-@article{jing2024match-stereo-videos,
-  title={Match-Stereo-Videos: Bidirectional Alignment for Consistent Dynamic Stereo Matching},
-  author={Junpeng Jing and Ye Mao and Krystian Mikolajczyk},
-  year={2024}
+@inproceedings{jing2024match-stereo-videos,
+  title={Match-stereo-videos: Bidirectional alignment for consistent dynamic stereo matching},
+  author={Jing, Junpeng and Mao, Ye and Mikolajczyk, Krystian},
+  booktitle={European Conference on Computer Vision},
+  pages={415--432},
+  year={2024},
+  organization={Springer}
 }
 ```
