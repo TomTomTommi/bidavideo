@@ -149,7 +149,7 @@ You can decrease `image_size` and / or `sample_len` if you don't have enough GPU
 ## License 
 The code is under MIT license.
 
-SouthKensington SV dataset is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)). Under this license, if you want to modify SK-SV or generate new data from SK-SV dataset (e.g., super-resolution, denoising, defocus), the releasing of your new data should be licensed under the same CC BY-NC-SA 4.0. 
+SouthKensington SV and Infinigen SV datasets are licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)). Under this license, if you want to modify SK-SV or generate new data from SK-SV dataset (e.g., super-resolution, denoising, defocus), the releasing of your new data should be licensed under the same CC BY-NC-SA 4.0. 
 
 ## Citation 
 If you use BiDAStabilizer or BiDAStereo in your research, please use the following BibTeX entry.
